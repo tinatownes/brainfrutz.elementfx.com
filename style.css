@@ -31,6 +31,65 @@ li{
 		margin-left:auto;
 		margin-right:auto;
 	}
+
+	#navbar {
+		list-style:none;
+		margin-bottom:10px;
+		float:left;
+		width:940px;
+		padding:5px;
+		background-color:silver;
+	}
+
+	#navbar li{
+		font-size:1.2rem;
+		float:left;
+		margin-right:40px;
+		margin-left:40px;
+		position:relative;
+	}
+
+	#navbar a{
+		display:block;
+		padding:5px;
+		color:white;
+		background:black;
+		text-decoration:none;
+	}
+
+	#navbar a:hover{
+		color:yellow;
+		text-decoration:none;
+	}
+
+	#navbar ul{
+		list-style:none;
+		position: absolute;
+		left:-9999px;
+	}
+
+	#navbar ul li{
+		padding-top:5px;
+		float:none;
+		margin-left:-25px;
+	}
+
+	#navbar ul a{
+		white-spce:nowrap;
+	}
+
+	#navbar li:hover ul{
+		left:0;
+	}
+
+	#navbar li:hover a{
+		text-decoration: none;
+		background-color: gray;
+	}
+
+	#navbar li:hover ul li a:hover{
+		background-color:black;
+	}
 }
 
 @media (max-width:959px) {
