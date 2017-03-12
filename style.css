@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body{
-        font-family:Arial,Verdana,sans-serif;
+        font-family: 'Comfortaa', cursive;
         font-size:1.3rem;
         line-height:1.2;
         background-color:#ffffff;
@@ -9,6 +9,9 @@ body{
 
 li{
         font-size:1.2rem;
+}
+p {
+	    font-family: 'Roboto', sans-serif;
 }
 
 .reponsive-photo-90{
@@ -22,12 +25,13 @@ li{
 @media (min-width:960px){
     h1 {
         font-size:2.5rem;
+		font-family: 'Comfortaa', cursive;
     }
 
     article{
         width:950px;
-        background-color:#60ff8c;
-        color:#4d514f;
+        background-color:#4d5a6d;
+        color:#add8e6;
         min-height:480px;
         padding:20px;
         margin-left:auto;
@@ -45,7 +49,7 @@ li{
     }
 
     #navbar li{
-        font-size:1.2rem;
+        font-size:1.1rem;
         float:left;
         margin-right:50px;
         margin-left:50px;
@@ -56,7 +60,7 @@ li{
         display:block;
         padding:3px;
         background-color:#ffffff;
-        color:#8f9991;
+        color:#4d5a6d;
         text-decoration:none;
     }
 
@@ -90,7 +94,6 @@ li{
     #navbar li:hover a{
         text-decoration:none;
         background-color:#e5e8e7;
-        color:#000000;
         padding:3px;
     }
 
@@ -111,7 +114,8 @@ li{
     }
 
     article{
-        background-color:#60ff8c;
+        background-color:#313a47;
+		color:#d8e7ff;
         min-height:480px;
         padding:5px;
     }
@@ -123,7 +127,7 @@ li{
     
     #navbar{
         list-style:none;
-        background-color:#60ff8c;
+        background-color:#313a47;
         margin-bottom:10px;
     }
     
@@ -133,7 +137,7 @@ li{
     }
     
     #navbar a{
-        font-size:1.25rem;
+        font-size:1.1rem;
         display:block;
         width:100%;
         padding: 5px;
