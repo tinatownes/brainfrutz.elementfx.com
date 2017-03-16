@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+h1 {
+	padding-left:8px;
+}
+
+summary img{
+	padding:10px;
+}
+
+details img{
+	padding:10px;
+	vertical-align:middle;
+}
+
+details p{
+	display:inline;
+	padding-left:10px;
+	padding-right:;
+	line-height:20px;
+}
+
+summary{
+	font-size:1.25rem;
+	cursor:pointer;
+	background-color:#ffbb33;
+	margin:2% 40% 2% 2%;
+	padding:5px;
+}
