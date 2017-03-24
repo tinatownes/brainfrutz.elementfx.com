@@ -1,0 +1,167 @@
+
+
+@charset "UTF-8";
+
+body{
+font-family: 'Varela Round', sans-serif;
+line-height:1.5;
+}
+
+a{
+text-decoration:none;
+}
+
+p{
+margin-left:5px;
+}
+
+img{
+margin:5px;
+}
+
+article{
+width:960px;
+background-color:orange;
+color:brown;
+min-height:550px;
+margin:auto;
+}
+
+header{
+width:15%;
+color:green;
+float:left;
+margin-left:5px;
+}
+
+footer{
+  margin:5px;
+}
+
+section{
+padding:1%;
+margin:1%;
+min-height:500px;
+float:left;
+}
+
+#a img{
+float:left;
+}
+
+#a{
+width:35%;
+background-color:green;
+color:white;
+}
+
+#b{
+width:18%;
+background-color:white;
+color:darkgreen;
+}
+
+#c{
+width:18%;
+background-color:white;
+}
+
+@media (min-width:481px) and (max-width:959px){
+
+    header{
+    width:auto;
+    color:green;
+    float:none;
+    margin-left:5px;
+    }
+
+    footer{
+    float:left;
+    }
+
+    article{
+    position:relative;
+    height:1000px; /*We are defining a height of 1000px*/
+    width:95%; /*We are changing the width from a pixel value to a relative value to resize in different tablets*/
+    }
+
+    section{
+    min-height:320px; /*We are reducing the minimum height*/
+    }
+
+    section img{
+    float:left; /*We are floating images in sections for a more compact tablet design*/
+    padding:10px;
+    }
+
+    #a{
+    float:none; /*We are removing the float*/
+    width:94%; /*We are defining the width with a relative value */
+    }
+    #b{
+    background-color:yellow; /*We are changing the background color of column b to yellow for tablet viewports*/
+    float:left;
+    width:45%; /*We are sizing the width to be about half the width of section a*/
+    min-height:400px;
+    }
+
+    #c{
+    float:left;
+    width:45%; /*We are sizing the width to be about half the width of section a*/
+    min-height:400px;
+    }
+
+}
+
+
+
+@media (max-width:480px){
+
+   body{
+   	background-color:turquoise;
+   }
+
+   header{
+    width:auto;
+    color:black;
+    float:none;
+    margin-left:5px;
+    }
+   
+   article{
+   width:100%; /*We are allowing the device to define the width -- the <article> will fill the entire width of the device*/
+   margin:0px;
+   padding:0px;
+   background-color:lavender;
+   }
+
+   section{
+   min-height:300px; /*We are removing constraints on width and reducing minimum height*/
+   }
+  
+   section img{
+   float:left; /*We are floating images in sections for a more compact smartphone design*/
+   padding:10px;
+   }
+
+   #a{
+   float:none; /*We are removing the float*/
+   width:95%; /*We are defining the width with a relative value*/
+   background-color:orange;
+   color:black;
+   }
+
+   #b{
+   float:none; /*We are removing the float*/
+   width:95%; /*We are defining the width with a relative value*/
+   background-color:blue;
+   color:white;
+   }
+
+   #c{
+   float:none; /*We are removing the float*/
+   width:95%; /*We are defining the width with a relative value*/
+   }
+
+}
+
