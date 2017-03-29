@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+/*Mobile*/
+@media (max-width:480px){	
+  body{
+	  background-image:url(file:///C:/Users/Tina/Desktop/GITHUB_MAIN_FOLDER/brainfrutz.elementfx.com/Responsive_Exercise/images/birchSmallScreen.jpg);
+	  background-size:300%;
+  }
+  
+  .leaf{
+	  float:left;
+	  margin-top:-6px;
+	  padding-right:8px;
+	  width:60px;
+  }
+  
+  .leafBig{
+	  display:none;
+  }
+  
+  h1{
+	  color:black;
+	  font-size:1.5em;
+  }
+
+  form{
+   background-color:#5e8044;
+   padding:3%;
+   margin:35px 1px 1px 1px;
+  }
+  
+  label{
+   display:none;
+  }
+  
+  input{
+   width:97%;
+  }
+  
+  button{
+   margin-top:8px;
+   margin-bottom:5px;   
+  }
+}
+
+/*Tablet*/
+@media (min-width:481px) and (max-width:959px){
+  
+  body{
+  background-image:url(file:///C:/Users/Tina/Desktop/GITHUB_MAIN_FOLDER/brainfrutz.elementfx.com/Responsive_Exercise/images/birchLargeScreen.jpg);
+  }
+  
+  .leaf{
+	  float:left;
+	  margin-top:-6px;
+	  padding-right:8px;
+	  width:60px;
+  }
+  
+  .leafBig{
+	  display:none;
+  }
+  
+  h1{
+	  color:#5d6066;
+  }
+  
+  form{
+   background-color:#85b560;
+   border:thin solid gray;
+   padding:3%;	
+   margin:35px 1px 1px 1px;
+   max-width:750px;   
+  }
+  
+  p{
+   border-bottom:medium dotted #b9c4a1;   
+  }  
+  
+  input{
+   float:right;
+   width:70%;
+   margin-right:.4%;
+  }
+	
+  button{
+   margin-top:10px;
+   margin-left:29%;   
+  }	
+}
+
+/*Full Size*/
+
+@media (min-width:960px){
+
+  body{
+  background-image:url(file:///C:/Users/Tina/Desktop/GITHUB_MAIN_FOLDER/brainfrutz.elementfx.com/Responsive_Exercise/images/birchLargeScreen.jpg);
+  }
+  
+  .leaf{
+	  float:left;
+	  margin-top:-6px;
+	  padding-right:8px;
+	  width:60px;
+  }
+  
+  .leafBig{
+	  position:absolute;
+	  top:90px;
+	  left:820px;
+	  width:35%;
+  }
+  
+  h1{
+	  color:#5d6066;
+  }
+  
+  form{
+   background-color:#85b560;
+   border:thin solid gray;
+   padding:3%;	
+   margin:35px 1px 1px 1px;
+   max-width:750px;   
+  }
+  
+  p{
+   border-bottom:medium dotted #b9c4a1;   
+  }  
+  
+  input{
+   float:right;
+   width:70%;
+   margin-right:.4%;
+  }
+	
+  button{
+   margin-top:10px;
+   margin-left:29%;   
+  }	
+}
+
+/*Universal*/  
+body{
+	font-family: 'Quicksand', sans-serif;
+}
