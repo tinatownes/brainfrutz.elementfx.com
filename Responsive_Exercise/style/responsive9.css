@@ -3,7 +3,7 @@
 /*Mobile*/
 @media (max-width:480px){	
   body{
-	  background-image:url(file:///C:/Users/Tina/Desktop/GITHUB_MAIN_FOLDER/brainfrutz.elementfx.com/Responsive_Exercise/images/birchSmallScreen.jpg);
+	  background-image:url("birchSmallScreen.jpg");
 	  background-size:300%;
   }
   
@@ -35,6 +35,7 @@
   
   input{
    width:97%;
+   margin-right:-1px;
   }
   
   button{
@@ -47,7 +48,7 @@
 @media (min-width:481px) and (max-width:959px){
   
   body{
-  background-image:url(file:///C:/Users/Tina/Desktop/GITHUB_MAIN_FOLDER/brainfrutz.elementfx.com/Responsive_Exercise/images/birchLargeScreen.jpg);
+  background-image:url("birchLargeScreen.jpg");
   }
   
   .leaf{
@@ -68,7 +69,7 @@
   form{
    background-color:#85b560;
    border:thin solid gray;
-   padding:3%;	
+   padding:3% 5% 3% 3%;	
    margin:35px 1px 1px 1px;
    max-width:750px;   
   }
@@ -80,7 +81,6 @@
   input{
    float:right;
    width:70%;
-   margin-right:.4%;
   }
 	
   button{
@@ -94,7 +94,7 @@
 @media (min-width:960px){
 
   body{
-  background-image:url(file:///C:/Users/Tina/Desktop/GITHUB_MAIN_FOLDER/brainfrutz.elementfx.com/Responsive_Exercise/images/birchLargeScreen.jpg);
+  background-image:url("birchLargeScreen.jpg");
   }
   
   .leaf{
@@ -130,7 +130,6 @@
   input{
    float:right;
    width:70%;
-   margin-right:.4%;
   }
 	
   button{
