@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+body{
+	background-color:#364051;
+	color:white;
+}
+
+.mainTitle{
+	color:#a0c4ff;
+}
+
+.bs-example{
+    margin:20px;
+}
+
+.btn{
+	margin-bottom:20px;
+	border-radius:0;
+}
+
+.colonialMen{
+	width:45px;
+	margin-right:10px;
+	margin-top:-8px;
+}
+
+.navbar-default{
+	border-radius:0;
+	
+}
+
+h2{
+margin: 0;
+color: #666;
+padding-top: 90px;
+font-size: 50px;
+font-family: "trebuchet ms", sans-serif;
+}
+
+.item{
+background: #333;
+text-align: center;
+height: 300px !important;
+}
+
+.carousel{
+margin-top: 20px;
+}
+
+
+.photo1{
+	width:20%;
+	margin-right:auto;
+	margin-left:auto;
+}
