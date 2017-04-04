@@ -21,6 +21,10 @@ font-family:Arial, sans-serif;
 float:left;
 }
 
+p{
+float:left;
+}
+
 .ui-content{
 background-color:#dd548d;
 color:white;
@@ -31,7 +35,8 @@ min-height:800px;
 }
 
 .ui-btn{
-font-size:2rem;
+font-size:1rem !important;
+margin-right:-18px !important;
 float:left;
 background-color:white;
 width:22%;
@@ -304,7 +309,7 @@ html body .ui-group-theme-a a:visited {
 html .ui-bar-a a:hover,
 html .ui-body-a a:hover,
 html body .ui-group-theme-a a:hover {
-	color: #005599 /*{a-link-hover}*/;
+	color: #333333 /*{a-link-hover}*/;
 }
 .ui-page-theme-a a:active,
 html .ui-bar-a a:active,
@@ -335,7 +340,7 @@ html .ui-bar-a .ui-btn:hover,
 html .ui-body-a .ui-btn:hover,
 html body .ui-group-theme-a .ui-btn:hover,
 html head + body .ui-btn.ui-btn-a:hover {
-	background-color: #ededed /*{a-bhover-background-color}*/;
+	background-color: #ffb2fb /*{a-bhover-background-color}*/;
 	border-color: #dddddd /*{a-bhover-border}*/;
 	color: #333333 /*{a-bhover-color}*/;
 	text-shadow: 0 /*{a-bhover-shadow-x}*/ 0 /*{a-bhover-shadow-y}*/ 0 /*{a-bhover-shadow-radius}*/ #f3f3f3 /*{a-bhover-shadow-color}*/;
