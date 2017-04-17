@@ -7,6 +7,10 @@ body{
         background-color:#ffffff;
 }
 
+*{
+	text-shadow:none;
+}
+
 li{
         font-size:1.2rem;
 }
