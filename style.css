@@ -149,8 +149,6 @@ table {
         line-height:20%;
   }
 
-  
-
   #navbar{
         list-style:none;
         margin-bottom:60px;
@@ -216,3 +214,4 @@ table {
   #navbar li:hover ul li a:hover{
         background-color:#ffd859;
   }
+
