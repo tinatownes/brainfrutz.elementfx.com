@@ -110,8 +110,8 @@ footer p {
         background-color:#ffd859;
     }
 
-
-@media (max-width:px){
+/*
+@media (max-width:959px){
     h1{
         font-size:1.5rem;
     }
@@ -165,3 +165,4 @@ footer p {
         width:100%;
     }
 }
+*/
