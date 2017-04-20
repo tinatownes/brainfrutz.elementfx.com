@@ -1,101 +1,138 @@
 @charset "UTF-8";
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-/*
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-/* HTML5 display-role reset for older browsers */
-/*
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-
-ol, ul {
-  list-style: none;
-}
-
-blockquote, q {
-  quotes: none;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-*/
-
 body{
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-size:1.3rem;
         line-height:1.2;
         background-color:#ffffff;
 }
 
-/*----------------MOBILE VIEW----------------*/
-@media (max-width:480px){
-	 
-  h1{
-        font-size:1.5rem;
-  }
+li{
+        font-size:1.2rem;
+}
 
-  article{
+footer p {
+        line-height:20%;
+}
+
+
+
+
+@media (min-width:960px){
+
+    h1 {
+        font-size:2.5rem;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    article{
+        width:950px;
+        background-color:#4d5a6d;
+        color:#add8e6;
+        min-height:480px;
+        padding:20px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    #navbar{
+        list-style:none;
+        margin-bottom:60px;
+        margin-left:-65px;
+        float:left;
+        width:970px;
+        padding:5px 54px 5px 12px;
+        background-color:#ffffff;
+    }
+
+    #navbar li{
+        font-size:1.1rem;
+        float:left;
+        margin-right:50px;
+        margin-left:50px;
+        position:relative;
+    }
+
+    #navbar a{
+        display:block;
+        padding:3px;
+        background-color:#ffffff;
+        color:#4d5a6d;
+        text-decoration:none;
+    }
+
+    #navbar a:hover{
+        text-decoration:none;
+    }
+
+    #navbar ul{
+        display:none;
+    }
+
+    #navbar ul li{
+        padding-top:5px;
+        float:none;
+        margin-left:-25px;
+    }
+
+    #navbar ul a{
+        white-space:nowrap;
+    }
+
+    #navbar li:hover ul{
+        display:block;
+        list-style:none;
+        position:absolute;
+    }
+
+    #navbar li:hover a{
+        text-decoration:none;
+        background-color:#e5e8e7;
+        padding:3px;
+    }
+
+    #navbar li:hover ul a{
+        text-decoration:none;
+        margin-left:-15px;
+        padding:3px 15px 3px 5px;
+    }
+    
+    #navbar li:hover ul li a:hover{
+        background-color:#ffd859;
+    }
+}
+
+
+@media (max-width:959px){
+
+    h1{
+        font-size:1.5rem;
+    }
+
+    article{
         background-color:#313a47;
         color:#d8e7ff;
         min-height:480px;
         padding:5px;
-  }
+    }
     
-  a{
+    a{
         font-size:1.5rem;
         text-decoration:none;
-  }
+    }
     
-  #navbar{
+    #navbar{
         list-style:none;
         background-color:#313a47;
         margin-bottom:10px;
-  }
+    }
     
-  #navbar li{
+    #navbar li{
         position:relative;
         margin-left:-40px;
-  }
+    }
     
-  #navbar a{
+    #navbar a{
         font-size:1.1rem;
         display:block;
         width:100%;
@@ -105,118 +142,48 @@ body{
         color:#000000;
         background:#ffffff;
         text-decoration:none;
-  }
+    }
     
-  #navbar a:hover{
+    #navbar a:hover{
         text-decoration:none;
-  }
+    }
     
-  #navbar ul li{
+    /* alter submenus in mobile devices */
+
+    #navbar ul{
         display:none;
-  }
-    
-  #navbar li:hover a{
-        text-decoration:none;
-        background-color:#ffd859;
-        width:100%;
-  }
-}
+    }
 
-
-
-/*----------------MID-TO-LARGE SCREEN VIEW----------------*/
-@media (min-width:481px){
-  li{
-        font-size:1.2rem;
-  }
-
-  p{
-        font-family: 'Roboto', sans-serif;
-  }
-
-  footer p {
-        line-height:20%;
-  }
-
-  h1 {
-        font-size:2.5rem;
-        font-family:'Raleway', sans-serif;
-        line-height:15%;
-  }
-
-  article{
-        width:1200px;
-        background-color:#4d5a6d;
-        color:#ffffff;
-        min-height:480px;
-        padding:20px;
-        margin-left:auto;
-        margin-right:auto;
-  }
-
-  #navbar{
-        list-style:none;
-        margin-bottom:60px;
-        margin-left:-20px;
-        float:left;
-        width:1174px;
-        padding:5px 54px 5px 12px;
-        background-color:#ff37ff;
-  }
-
-  #navbar li{
-        font-size:1.1rem;
-        float:left;
-        margin-right:50px;
-        margin-left:50px;
-        position:relative;
-  }
-
-  #navbar a{
-        display:block;
-        padding:3px;
-        background-color:#ffffff;
-        color:#4d5a6d;
-        text-decoration:none;
-  }
-
-  #navbar a:hover{
-        text-decoration:none;
-  }
-
-  #navbar ul{
-        display:none;
-  }
-
-  #navbar ul li{
-        padding-top:5px;
+    #navbar ul li{
         float:none;
-        margin-left:-25px;
-  }
+        margin-left:-30px;
+    }
 
-  #navbar ul a{
+    #navbar ul a{
         white-space:nowrap;
-  }
 
-  #navbar li:hover ul{
+    }
+
+    #navbar li:hover ul{
         display:block;
         list-style:none;
         position:absolute;
-  }
+        /*width:94.6%;*/
+    }
 
-  #navbar li:hover a{
+    #navbar li:hover a{
         text-decoration:none;
         background-color:#e5e8e7;
         padding:3px;
-  }
+    }
 
-  #navbar li:hover ul a{
+    #navbar li:hover ul a{
         text-decoration:none;
         margin-left:-15px;
         padding:3px 15px 3px 5px;
-  }
+    }
     
-  #navbar li:hover ul li a:hover{
+    #navbar li:hover ul li a:hover{
         background-color:#ffd859;
-  }
+    }
 }
