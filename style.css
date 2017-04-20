@@ -4,7 +4,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
+/*
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -32,7 +32,7 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-
+/*
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
   display: block;
@@ -56,13 +56,18 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+*/
 
-
-
+body{
+        font-family: 'Raleway', sans-serif;
+        font-size:1.3rem;
+        line-height:1.2;
+        background-color:#ffffff;
+}
 
 /*----------------MOBILE VIEW----------------*/
 @media (max-width:480px){
-	/*
+	 
   h1{
         font-size:1.5rem;
   }
@@ -115,41 +120,39 @@ table {
         background-color:#ffd859;
         width:100%;
   }
-  */
 }
+
+
 
 /*----------------MID-TO-LARGE SCREEN VIEW----------------*/
-  body{
-        font-family: 'Roboto', sans-serif;
-        font-size:1.3rem;
-        line-height:1.2;
-        background-color:#ffffff;
-}
-
-  article{
-	    position: fixed;
-        top: 30%;
-        left: 30%;
-        transform: translate(-50%,-50%);
-        background-color:#707377;
-        color:#ffffff;
-        min-height:480px;
-  }
-
-  h1 {
-        font-size:2.5rem;
-        line-height:15%;
-  }
-  
+@media (min-width:481px){
   li{
         font-size:1.2rem;
+  }
+
+  p{
+        font-family: 'Roboto', sans-serif;
   }
 
   footer p {
         line-height:20%;
   }
 
-  
+  h1 {
+        font-size:2.5rem;
+        font-family:'Raleway', sans-serif;
+        line-height:15%;
+  }
+
+  article{
+        width:1200px;
+        background-color:#4d5a6d;
+        color:#ffffff;
+        min-height:480px;
+        padding:20px;
+        margin-left:auto;
+        margin-right:auto;
+  }
 
   #navbar{
         list-style:none;
@@ -216,3 +219,4 @@ table {
   #navbar li:hover ul li a:hover{
         background-color:#ffd859;
   }
+}
